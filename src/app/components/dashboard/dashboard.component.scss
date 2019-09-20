@@ -14,6 +14,44 @@
     margin:0;
 
 }
+.logo{
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    //margin-top: 10px!important;
+    z-index: 2;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    text-align: center;
+    top:55%
+}
+.text{
+    width:55%;
+    position: absolute;
+    top:60%;
+    text-align: center;
+
+    
+
+}
+#text-content{
+    font-size: 12px;
+    color:#F5F5F5;
+    opacity: 0.94;
+    font-family:Lato,Medium; 
+
+
+}
+#campus{
+    font-size:32px;
+    font-family:Lato,Bold ; 
+    color:#F5F5F5 !important;
+    opacity: 1;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
 .group-image{
     display:flex;
     flex:1 1 100%;
@@ -29,15 +67,15 @@
     
 }
 .back-drop{
-    // background-color: rgba(32,26,22,.8);
-    // width: 100%!important;
-    // height: 100%;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // opacity: .6;
-    // // /* z-index: 1; */
+    background-color: rgba(32,26,22,.8);
+    width: 100%!important;
+    height: 94%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+     opacity: .6;
+    z-index: 1;
 }
 .parallax{
     background-image: url(../../../assets/images/2019-09-17.jpg);
@@ -50,23 +88,29 @@
     min-width: 100%;
 }
 .coding-icons{
-    // position: relative;
-    // left: 50px;
+    
     flex-direction: row;
     box-sizing: border-box;
     display: flex;
-    /* max-height: 100%; */
-    /* place-content: center space-around; */
+    
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+
+    justify-content: space-evenly !important;
+
 }
 .informations{
     margin-bottom: 30px;
 }
 .jury-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     margin-top:25px;
     background: #fff6e6;
+    padding-top:40px;
 }
 .icons{
     flex-direction: column;
@@ -98,9 +142,60 @@
 }
 
 #designation{
-    margin-block-start: 0.25em !important;
-    margin-block-end: 0.25em !important;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-size:10px;
+    font-weight: 400;
+    text-align: center;
+}
+#jury-name{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
     font-size:12px;
     font-weight: 600;
+    text-align: center;
 }
-    
+.jury-members{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width:200px;
+    height:150px;
+} 
+
+.program-jury{
+    width: 80%;
+    padding-top: 40px;
+}
+.footer{
+    background-color: #010A20;
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.address{
+    width:30%;
+}
+#address1{
+    font-size: 12px;
+    color: #fff6e6;
+    margin: 0 0 10px 0;
+
+}
+#address2{
+    font-size: 12px;
+    color: #fff6e6;
+    margin: 0 0 10px 0;
+
+}
+#tweeter{
+    margin-right:10px;
+}
+#facebook{
+    margin-right:10px;
+}
+.policy{
+    color: #9fb5ce !important;
+    font-size: 12px;
+    letter-spacing: .04em;
+}
