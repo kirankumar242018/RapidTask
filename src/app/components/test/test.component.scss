@@ -21,6 +21,12 @@
     position: relative;
     justify-content: center;
 }
+// .banner-image{
+//     flex-direction: row;
+//     box-sizing: border-box;
+//     display: flex;
+//     position: relative;
+// }
 .back-drop{
     background-color: #141616;
     width: 100%!important;
@@ -42,6 +48,7 @@
     background-size: cover;
     min-width: 100%;
 }
+
 .logo{
     position: absolute;
     top: 50%;
@@ -202,19 +209,66 @@
     width: 80%;
     padding-top: 40px;
 }
+.wall-of-leader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wall-heading{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.wall-image{
+    width:80%;
+    height: 450px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    height:500px;
+  }
+  .footer-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .footer-image{
+    background-image: url(../../../assets/images/Path125.png);
+    display: block;
+    width: 100% !important;
+    height: 100%;
+    //background-attachment: fixed;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+}
 .footer{
     //background-color: #010A20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width:100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    // padding-top: 25px;
+    // padding-bottom: 25px;
+    margin-top:30px;
 }
 .footer-logo{
+    height: 80px;
+    width:80px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 .bl-logo{
-    height:80px;
-    width:80px;
+    height:100%;
+    width:100%;
 }
 .address{
     width:30%;
@@ -229,8 +283,11 @@
 #address2{
     font-size: 12px;
     color: #fff6e6;
-    margin: 0 0 20px 0;
+    margin: 30px 0 30px 0;
 
+}
+.social-logo{
+    margin-top:10px;
 }
 .tweeter{
     height:40px ;
@@ -256,18 +313,24 @@
     font-size: 12px;
     letter-spacing: .04em;
 }
+.orange-rectangle{
+    height: 12px;
+    background-color: #e26003;
+}
+.orange-blue{
+    height: 12px;
+    background-color:#008cff;
+}
+.orange-yellow{
+    height: 12px;
+    background-color: #efa500;
+}
+.orange-green{
+    height: 12px;
+    background-color:#7f961e;
+}
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .footer-contents {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
 
 
 @media only screen and (min-width:321px) and (max-width:450px){
@@ -396,50 +459,129 @@
         width:285px;
         height:280px;
     }
+    .wall-of-leader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wall-heading{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    .wall-image{
+        min-width:80%;
+        min-height: 450px;
+        margin-top:30px;
+        margin-bottom: 30px;
+        //transform: rotate(90deg);
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        width:100%;
+        height:500px;
+      }
+      .footer-contents {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .footer-image{
+        background-image: url(../../../assets/images/Path125.png);
+        display: block;
+        width: 100% !important;
+        height: 100%;
+        //background-attachment: fixed;
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 100%;
+    }
+    .footer{
+        //background-color: #010A20;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:100%;
+        // padding-top: 25px;
+        // padding-bottom: 25px;
+        margin-top:30px;
+    }
     .footer-logo{
+        height: 80px;
+        width:80px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
     .bl-logo{
-        height:120px;
-        width:120px;
+        min-height:100%;
+        min-width:100%;
     }
     .address{
-        width:50%;
+        width:30%;
+        
     }
     #address1{
-        font-size: 28px;
+        font-size: 12px;
         color: #fff6e6;
         margin: 0 0 20px 0;
     
     }
     #address2{
-        font-size: 28px;
+        font-size: 12px;
         color: #fff6e6;
-        margin: 0 0 20px 0;
+        margin: 30px 0 30px 0;
     
-    } 
+    }
+    .social-logo{
+        margin-top:10px;
+    }
     .tweeter{
-        height:80px;
-        width:80px;
+        height:40px ;
+        width:40px ;
         margin-right:10px;
     }
     .facebook{
-        height:80px;
-        width:80px;
+        height:40px ;
+        width:40px ;
         margin-right:10px;
     }
     .linkedin{
-        height:80px;
-        width:80px;
+        height:40px ;
+        width:40px ;
     }
-    
+    .privacy{
+        margin-top:10px;
+    }
     .policy{
         
+    
         color: #9fb5ce !important;
-        font-size: 24px;
+        font-size: 12px;
         letter-spacing: .04em;
     }
+    .orange-rectangle{
+        height: 12px;
+        background-color: #e26003;
+    }
+    .orange-blue{
+        height: 12px;
+        background-color:#008cff;
+    }
+    .orange-yellow{
+        height: 12px;
+        background-color: #efa500;
+    }
+    .orange-green{
+        height: 12px;
+        background-color:#7f961e;
+    }
+    
+    
 }
 
 @media only screen and (min-width:451px) and (max-width:600px){
