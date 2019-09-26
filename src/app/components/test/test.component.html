@@ -5,9 +5,10 @@
                     
             <div class="back-drop">
                                 <!-- <img src="../../../assets/images/2019-09-17.jpg" style="width:100%; height: 100%;"> -->
-                                    <div class="parallax"> 
+                                    <div class="parallax"  > 
 
                                     </div>
+                                    <div class="top-contents">
                                         <div class="logo" fxLayout="row" >
                                             <img height="150px" width="250px" src="../../../assets/images/Group 2998.svg">
                                         </div>
@@ -16,7 +17,9 @@
                                         </div>
                                         <div class="text" fxLayout="row" >
                                             <p id="text-content">“ET Campus Coding Stars powered by BridgeLabz” is a talent assessment program devised to hunt for the most talented coding minds in India. The contest involves an MCQ formatted test which would evaluate the coding proficiency of the participants. Candidates would require around 15 minutes to complete the test.</p>
-                                        </div> 
+                                        </div>
+                                    </div>
+                                         
             </div>
 
 
@@ -54,34 +57,43 @@
                  
         </div>
         <div class="jury-section">
-                <div class="jury" fxLayout="column" fxLayout.xs="column" fxLayout.md="column" fxLayout.sm="column" fxLayoutAlign="center center">
+                <div class="jury" fxLayout="column"  fxLayout.xs="column" fxLayout.md="column" fxLayout.sm="column" fxLayoutAlign="center center">
                     <p class="text-data">PROGRAM JURY</p>
                     <hr class="dash">
                 </div>
-                <div class="program-jury" fxLayout="row wrap" fxLayout.xs="column" fxLayout.sm="row wrap" fxLayout.md="row wrap"  fxLayoutAlign="center center" >
+                <div class="program-jury" fxLayout="row wrap"  fxLayout.xs="column" fxLayout.sm="row wrap" fxLayout.md="row wrap"  fxLayoutAlign="center center" >
                     <div class="jury-members" *ngFor='let members of juryData' fxLayout="column" fxLayoutAlign="start center" >
                         <img class="jury-image"  style="border-radius: 50%;" src="{{members.image}}">
-                        <p id="jury-name">{{members.name}}</p>
-                        <p id="designation">{{members.designation}}</p>
+                        <div class="jury-info">
+                            <p id="jury-name">{{members.name}}</p>
+                            <p id="designation">{{members.designation}}</p>
+                        </div>
+                       
                         
                     </div> 
                 </div>
         </div>
-        <div class="wall-of-leader" fxLayout="column" fxLayout.xs="column" fxLayout.md="column" fxLayout.sm="column" fxLayoutAlign="center center" >
-                <div class="wall-heading" fxLayout="column" fxLayout.xs="column" fxLayout.md="column" fxLayout.sm="column" fxLayoutAlign="center center">
+        <div class="wall-of-leader"  >
+                <div class="wall-heading" >
                         <p class="text-data">WALL OF LEADER</p>
                         <hr class="dash">
                 </div>
-                <div class="wall-image"  >
+                <!-- <div class="wall-image"  >
                         <img src="../../../assets/images/wall-of-leader.svg" style="width:100%">
-                </div>
+                </div> -->
+            <div class="wall-image" fxShow.sm="false"  fxShow.xs="false" fxShow="true"   >
+                    <img src="../../../assets/images/wall-of-leader.svg" style="width:100%">
+            </div>
+            <div class="wall-image-line" fxLayout="row" fxLayoutAlign="center center" fxShow.md="false"  fxShow.lg="false" fxShow.xl="false" fxShow="true">
+                <img  src="../../../assets/images/wall-leader.svg">
+            </div>
            
         </div>
 
         <div class="container">
             <img  class="footer-image">
              
-                        <div class="footer" fxLayout="column" fxLayout.sm="column" fxLayout.md="column" fxLayoutAlign="center center">
+                    <div class="footer" fxLayout="column" fxLayout.sm="column" fxLayout.md="column" fxLayoutAlign="center center">
                             <div class="footer-logo">
                                 <img class="bl-logo" src="../../../assets/images/BL-logo.png">
                             </div>
