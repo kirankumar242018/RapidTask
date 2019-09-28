@@ -81,7 +81,7 @@
     margin-top:20px;
 }
 #text-content{
-    font-size: 14px;
+    font-size: 16px;
     color:#F5F5F5;
     //opacity: 0.94;
     //font-family:Lato,Medium;
@@ -140,13 +140,13 @@
 #title{
     // position: relative;
     // right: 75px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
 }
 .para{
     
-    font-size:14px;
+    font-size:16px;
     //font-weight:600;
     text-align: initial;
     width:80%;
@@ -156,10 +156,15 @@
     height: 50px;
     background-color:#ED1A3B;
     border-radius: 32px;
-    border: solid 1px;
+    border: solid 0px;
     font-size:14px;
     color: #FFFFFF;
     margin-top:45px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+
+
 }
 .jury-section{
     display: flex;
@@ -284,13 +289,13 @@
     
 }
 #address1{
-    font-size: 14px;
+    font-size: 16px;
     color: #fff6e6;
     margin: 0 0 20px 0;
 
 }
 #address2{
-    font-size: 14px;
+    font-size: 16px;
     color: #fff6e6;
     margin: 30px 0 30px 0;
 
@@ -319,7 +324,7 @@
     
 
     color: #9fb5ce !important;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .04em;
 }
 .orange-rectangle{
@@ -498,10 +503,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:14px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
@@ -836,10 +844,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:14px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
@@ -1173,10 +1184,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:14px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
@@ -1508,10 +1522,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:14px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
@@ -1845,10 +1862,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:16px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
@@ -2181,10 +2201,13 @@
         height: 50px;
         background-color:#ED1A3B;
         border-radius: 32px;
-        border: solid 1px;
+        //border: solid 1px;
         font-size:16px;
         color: #FFFFFF;
         margin-top:30px;
+        font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
