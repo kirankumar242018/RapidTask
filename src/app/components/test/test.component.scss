@@ -214,6 +214,7 @@
     width: 80%;
     padding-top: 30px;
 }
+
 .wall-of-leader{
     display: flex;
     flex-direction: column;
@@ -2206,8 +2207,8 @@
         color: #FFFFFF;
         margin-top:30px;
         font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     }
     .jury-section{
         display: flex;
