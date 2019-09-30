@@ -68,7 +68,8 @@
                     <hr class="dash">
                 </div>
                 <div class="program-jury" fxLayout="row wrap"  fxLayout.xs="column" fxLayout.sm="row wrap" fxLayout.md="row wrap"  fxLayoutAlign="center center" >
-                    <div class="jury-members" *ngFor='let members of juryData' fxLayout="column" fxLayoutAlign="start center" >
+                    <div class="jury-members" *ngFor='let members of juryData' fxLayout="column" fxLayoutAlign="start center" style="    margin: 20px;
+                    " >
                         <img class="jury-image"  style="border-radius: 50%;" src="{{members.image}}">
                         <div class="jury-info">
                             <p id="jury-name">{{members.name}}</p>
@@ -110,10 +111,15 @@
                             </ul>
                             </div>
                             <div class="social-logo"  fxLayout="row" fxLayout.xs="row" fxLayout.md="row" fxLayout.sm="row" fxLayoutAlign="start center">
-                                <img class="tweeter"  src="../../../assets/images/Tweeter.png">
+                                <a href = "https://twitter.com/BridgeLabz">
+                                <img class="tweeter"  src="../../../assets/images/Tweeter.png" >
+                            </a>
+                            <a href="https://m.facebook.com/bridgelabz">
                                 <img class="facebook" src="../../../assets/images/Faceebook.png">
+                            </a>
+                            <a href="https://in.linkedin.com/company/bridgelabz-com">
                                 <img class="linkedin" src="../../../assets/images/Linkedin.png">
-                    
+                            </a>
                             </div>
                             <div class="privacy" >
                                 <a class="policy" href="#">Privacy Policy</a>
@@ -122,7 +128,7 @@
                                                 
         </div>
         <div class="footer-line" fxLayout="row" >
-            <div class="orange-rectangle" fxFlex="25">
+            <div class="orange-rectangle" fxFlex="25" >
 
             </div>
             <div class="orange-blue" fxFlex="25">
